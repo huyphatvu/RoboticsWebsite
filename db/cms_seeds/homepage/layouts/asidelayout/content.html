@@ -1,0 +1,29 @@
+[attributes]
+---
+label: asideLayout
+app_layout: application
+position: 2
+
+[content]
+<div class="jumbotron">
+  <div class="container">
+    <h1>{{ cms:text jumbotron-title }}</h1>
+    <p>{{ cms:text jumbotron-text }}</p>
+  </div>
+</div>
+<main class="container">
+  {{ cms:wysiwyg content }}
+</main>
+<hr/>
+<footer class="container">
+  {{ cms:snippet footer }}
+</footer>
+
+[js]
+
+
+[css]
+body{
+ font-size: 2em;
+}
+

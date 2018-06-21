@@ -1,0 +1,19 @@
+.page-header
+  = link_to 'New Comfy Reference', new_admin_comfy_reference_path, class: 'btn btn-secondary float-right'
+  %h2= 'Comfy References'
+
+%ul.list
+  - @source_reference.each do |source_reference|
+    %li
+      .row
+        .col-md-8.item
+          .item-content
+            .item-title
+              = source_reference.description
+
+        .col-md-4.d-flex.align-items-center.justify-content-md-end
+          .btn-group.btn-group-sm
+            = link_to 'Edit', edit_admin_comfy_reference_path(source_reference), class: 'btn btn-outline-secondary'
+            = link_to 'Delete', admin_comfy_reference_path(source_reference), method: :delete, data: {confirm: 'Are you sure?'}, class: 'btn btn-danger'
+
+= paginate @comfy_references, theme: 'comfy'

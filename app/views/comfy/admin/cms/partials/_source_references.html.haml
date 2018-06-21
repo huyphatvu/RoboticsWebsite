@@ -1,0 +1,16 @@
+- refClass = Admin::SourceReferencesController.new
+- refClass.index
+-#= refClass.source_reference
+%ul.list
+  - refClass.source_reference.each do |reference|
+    %li
+      .row(align="center")
+        .col-md-2.item
+          .item-content
+            .item-title
+              = reference.text
+
+        .col-md-2.d-flex.align-items-center.justify-content-md-end
+          .btn-group.btn-group-sm
+            = link_to 'Edit', edit_admin_source_reference_path(reference.id), class: 'btn btn-outline-secondary'
+            = link_to 'Delete', admin_source_reference_path(reference.id), method: :delete, data: {confirm: 'Are you sure?'}, class: 'btn btn-danger'

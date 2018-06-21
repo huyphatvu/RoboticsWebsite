@@ -1,0 +1,391 @@
+[attributes]
+---
+label: hsi-layout
+app_layout: ''
+position: 3
+
+[content]
+<head>
+  {{ cms:asset hsi-layout, type: css, as: tag }}
+{{ cms:asset hsi-layout, type: js, as: tag }}
+</head>
+ 
+      {{ cms:markdown content }}
+ 
+ 
+    
+ 
+
+[js]
+
+function changedTo2017(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=b2bced03fbb047a09116ec324d8c53e0&extent=-91.3808,28.9258,-88.1783,30.422&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2017"; 
+    }
+    
+    function changedTo2016(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=9b118e70af7d4a7581a3aafb0e200683&amp;extent=-91.4709,29.0388,-88.598,30.3297&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+         document.getElementById("demoTitle").innerHTML="2016"; 
+    }
+    function changedTo2015(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=5e8b3b199d7d478286690ff223850814&amp;extent=-91.6112,28.9664,-88.4087,30.5614&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2015"; 
+    }
+    function changedTo2014(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=0821a1c47a5840c39b2e9776c1407996&amp;extent=-91.6305,28.851,-88.428,30.4478&zoom=true&previewImage=false&scale=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2014"; 
+    }
+    function changedTo2013(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=702bf7539f0644a989e3fb88bd547bb8&amp;extent=-91.6058,28.8606,-88.4033,30.4573&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2013"; 
+    }
+    
+   function changedTo2012(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=dec731d13a424708858a3886d45a0f29&amp;extent=-91.669,28.9952,-88.4665,30.5898&zoom=true&previewImage=false&scale=true&search=true&searchextent=false&legendlayers=true&disable_scroll=true&theme=light";
+       document.getElementById("demoTitle").innerHTML="2012"; 
+    }
+    
+    function changedTo2011(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=5661f692e0d147b486458d960a774d1f&amp;extent=-91.7349,28.988,-88.5324,30.5827&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2011"; 
+    }
+    function changedTo2010(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=ebabe6160eb245acb73abe45c593f589&amp;extent=-91.6882,28.9232,-88.4857,30.5188&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2010"; 
+    }
+    
+    function changedTo2009(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=02d7beb11986483ab1a21489f252e7db&amp;extent=-91.8612,28.9622,-88.6587,30.5572&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2009"; 
+    }
+    function changedTo2008(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=b66c72d897734650b86c143c5686ec41&amp;extent=-91.5288,28.8696,-88.3263,30.4661&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2008"; 
+    }
+    function changedTo2007(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=595b3f93398a4bd2a7dc5cb40955af33&extent=-91.7788,28.902,-88.5762,30.2682&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2007"; 
+    } 
+    
+    function changedTo2006(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=fcc2949417b14e12bf92b2eb3b655aa5&extent=-91.5673,28.9261,-88.3648,30.2919&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2006"; 
+    } 
+    
+    function changedTo2005(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=69400583c3dd4280a25a734f166fca5c&extent=-91.6332,28.9261,-88.4307,30.2919&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2005"; 
+    } 
+    function changedTo2004(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=f7b17cc7d2c642838eba428fecc75887&extent=-91.787,28.8323,-88.5845,30.1994&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2004"; 
+    }  
+    
+    function changedTo2003(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=4d528e741158468a9feaca0fd3ee5555&extent=-91.8007,28.9645,-88.5982,30.3299&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2003"; 
+    }      
+    
+    function changedTo2002(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=484bac646b694b85a53e4753a35a60f8&extent=-91.7815,28.9117,-88.579,30.2777&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2002"; 
+    } 
+    
+    function changedTo2001(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=0dc7cd23474c47a8a52c2595572abd21&extent=-91.8007,28.9092,-88.5982,30.2753&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2001"; 
+    } 
+    
+    function changedTo2000(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=c097cf4d0c944bcc9a9a8c753dbce98c&extent=-91.6607,28.8804,-88.4581,30.2469&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="2000"; 
+    } 
+    
+    function changedTo1999(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=708f8a1f35f14372aaeac5f58ec2e9eb&extent=-92.7823,28.3739,-87.0364,31.0077&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1999"; 
+    } 
+    
+ 
+    
+    function changedTo1998(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=940071c69c8e4143a8987e1347e5a5b0&extent=-92.9148,28.3238,-87.169,30.9588&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1998"; 
+    } 
+    
+    function changedTo1997(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=ebe36ed2e87b40b981a8c83b1164a85a&extent=-92.9148,28.3238,-87.169,30.9588&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1997"; 
+    } 
+    
+    function changedTo1996(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=1ff17c419ab44888b23002a9a4c879e0&extent=-92.8956,28.3407,-87.1497,30.9753&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1996"; 
+    }
+ 
+    
+    function changedTo1995(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=5ce8229649344e37a563f77937b27e9f&extent=-93.1235,28.4156,-87.3777,31.0483&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1995"; 
+    }
+ 
+    function changedTo1994(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=6154380a5e8e415086a9402cdea03d33&extent=-92.9868,28.2948,-87.241,30.9306&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1994"; 
+    }
+ 
+    function changedTo1993(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=72eb76ffb68a4b09bf532d79b437b9ef&extent=-91.5737,29.1172,-88.7008,30.4331&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1993"; 
+    }
+    
+    function changedTo1992(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=a846b0995f6b4dc0b7bd5881dffb05f5&extent=-91.494,29.0884,-88.6211,30.4047&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1992"; 
+    }
+    
+    function changedTo1991(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=2b545c00457a4fbdb05a17c01570d491&extent=-91.5572,29.0716,-88.6843,30.3881&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1991"; 
+    }
+     
+    function changedTo1990(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=06f052d5428a4ebe987509f0aaaf2d4f&extent=-91.56,29.0693,-88.6871,30.3858&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1990"; 
+    }
+    
+    function changedTo1989(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=97085cd0da054f839ba97690a3004879&extent=-91.5984,29.0716,-88.7255,30.3881&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1989"; 
+    }
+    
+    function changedTo1988(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=20603448425e4b4abf2cd89a64260318&extent=-91.6177,29.0716,-88.7447,30.3881&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1988"; 
+    }
+    
+    function changedTo1987(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=c3014d2960d14b0bac23347e30def85d&extent=-91.6177,29.0476,-88.7447,30.3644&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1987"; 
+    }
+    function changedTo1986(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=08d85d5964f54ecf89d8d3266e83a2ba&extent=-91.5984,29.1196,-88.7255,30.4355&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1986"; 
+    }    
+    
+    function changedTo1985(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=182b797dddf540de83cdd8b4e0f44ba5&extent=-91.5352,28.9948,-88.6623,30.3123&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1985"; 
+    }    
+    
+    function changedTo1984(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=f8a03caf56784665b2ac268bd69bc6ac&extent=-91.5352,28.9948,-88.6623,30.3123&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1984"; 
+    }  
+    
+    function changedTo1983(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=7f454f3ad5d74a4fb88ed88df833c45b&extent=-91.5874,29.026,-88.7145,30.3431&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1983"; 
+    }  
+    
+    function changedTo1982(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=f5f62baea32f40988d93005cba515c1e&extent=-91.5654,28.9924,-88.6925,30.3099&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1982"; 
+    } 
+    
+     
+    
+    function changedTo1981(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=e89b91f989af4c81a9fb569faa401df9&extent=-91.5654,28.9924,-88.6925,30.3099&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1981"; 
+    }  
+    
+    function changedTo1980(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=a23155180c8341e2ac627772b914d80a&extent=-91.5929,29.0356,-88.72,30.3526&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1980"; 
+    }  
+    
+    function changedTo1979(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=d0f2cc9414c94d7fb255213827244ab0&extent=-91.5627,29.0524,-88.6898,30.3692&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1979"; 
+    }  
+    
+    function changedTo1978(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=3ae9e8f8b9bc458b9195c26e9e85efae&extent=-91.6313,29.0428,-88.7584,30.3597&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1978"; 
+    }  
+    
+    
+    function changedTo1977(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=7e914d6a5bbe489ab6ee16bdbf4f6f9f&extent=-91.5654,28.9947,-88.6925,30.3122&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1977"; 
+    }  
+    
+    function changedTo1976(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=de6b211ec27d43bdb503c51839a7a52b&extent=-91.5544,28.9947,-88.6815,30.3122&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1976"; 
+    }  
+    
+    function changedTo1975(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=8988e94ff0014856a1164e9b19df9e61&extent=-91.6258,29.002,-88.7529,30.3194&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1975"; 
+    }   
+    
+    function changedTo1974(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=3293a244aaac48c7a1e4221e732549a3&extent=-91.516,29.0116,-88.6431,30.3289&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1974"; 
+    }    
+    function changedTo1973(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=8647648124864f2d9206f1e3744f3c82&extent=-91.4316,29.0254,-88.5587,30.3425&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1973"; 
+    }      
+    
+    function changedTo1972(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=2f87233bf77e40ab88d8cab304ed0726&extent=-91.3987,29.011,-88.5257,30.3283&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1972"; 
+    }  
+    function changedTo1971(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=eaa4cdbb2faf4cc7ace94b12d0c72b90&extent=-91.4893,29.0327,-88.6164,30.3497&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1971"; 
+    }  
+    function changedTo1970(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=c092104d34aa4dd3bdbbf42cd3a13d61&extent=-91.6706,29.0662,-88.7977,30.3828&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1970"; 
+    }    
+    
+    function changedTo1969(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=2cb0ea9357054efc82ac99c7dfa03b47&extent=-91.5772,29.059,-88.7043,30.3757&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1969"; 
+    }  
+    
+    function changedTo1968(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=d281b2e61a0a4421bbf329c92f84461c&extent=-91.5772,28.9414,-88.7043,30.2596&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1968"; 
+    }  
+    
+    function changedTo1967(){
+        document.getElementById("embed-map").src="https://unola.maps.arcgis.com/apps/Embed/index.html?webmap=4d6c8b6f0d4d49e5a81f1e354b680ab1&extent=-91.5772,28.9846,-88.7043,30.3022&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legendlayers=true&disable_scroll=true&theme=light";
+        document.getElementById("demoTitle").innerHTML="1967"; 
+    }  
+ 
+      
+    //****************Drop down
+    
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function show_list() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+     
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+ 
+
+[css]
+.embed-container {
+        position: relative; 
+        padding-bottom: 80%; 
+        height: 0; 
+        max-width: 100%;
+    } 
+    .embed-container iframe, .embed-container object, .embed-container iframe{
+        position: absolute; 
+        top: 0; 
+        left: 15%; 
+        width: 70%; 
+        height: 55%;
+    } 
+    small{
+        position: absolute; 
+        z-index: 40; 
+        bottom: 0; 
+        margin-bottom: -15px;
+    }
+    
+/*    Drop down */
+    /* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover, .dropdown:focus {
+    background-color: #3e8e41;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    height:500px;
+    overflow-y: auto;
+    white-space: nowrap;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+.scrolling-bar::-webkit-scrollbar{
+    width: 10px;
+}
+
+/* Track */
+.scrolling-bar::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+.scrolling-bar::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+.scrolling-bar::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+ 
+       
+
