@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c8921bf-1f71-46a9-8442-e76ed7a135de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_accessibility.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_card.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_footer.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_form.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_media.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_navigation.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_normalize.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_specialContentFormat.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_specialText.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_typography.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/custom.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/admin/source_references_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/reference/_form.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/reference/edit.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/reference/index.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/reference/new.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/reference/show.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/comfy/admin/cms/partials/_source_references.html.haml" afterDir="false" />
-    </list>
+    <list default="true" id="0c8921bf-1f71-46a9-8442-e76ed7a135de" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -430,12 +408,12 @@
       <workItem from="1529338342749" duration="11651000" />
       <workItem from="1529430497057" duration="10318000" />
       <workItem from="1529514609282" duration="6929000" />
-      <workItem from="1529605302792" duration="6643000" />
+      <workItem from="1529605302792" duration="6898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48302000" />
+    <option name="totallyTimeSpent" value="48557000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
