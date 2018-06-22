@@ -2,10 +2,12 @@ class Admin::SourceReferencesController < Comfy::Admin::BaseController
 
   before_action :build_source_reference,  only: [:new, :create]
   before_action :load_source_reference,   only: [:show, :edit, :update, :destroy]
-  attr_accessor :source_reference
+  attr_accessor :source_reference, :cms_page
+
 
   def index
     @source_reference = SourceReference.all
+
   end
 
   def show

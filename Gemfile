@@ -6,7 +6,7 @@ ruby '2.5.1'
 gem "comfortable_mexican_sofa", "~> 2.0.0"
 gem "haml-rails", "~> 1.0"
 gem 'seed_dump'
-
+gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
 # Use sqlite3 as the database for Active Record

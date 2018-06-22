@@ -14,3 +14,5 @@
           .btn-group.btn-group-sm
             = link_to 'Edit', edit_admin_source_reference_path(reference.id), class: 'btn btn-outline-secondary'
             = link_to 'Delete', admin_source_reference_path(reference.id), method: :delete, data: {confirm: 'Are you sure?'}, class: 'btn btn-danger'
+%h1=@cms_page.url
+%h1=@cms_layout
