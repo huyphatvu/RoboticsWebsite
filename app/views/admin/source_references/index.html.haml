@@ -1,0 +1,21 @@
+.page-header
+  .float-right
+    = link_to 'Create New Reference', new_admin_source_reference_path, class: 'btn btn-secondary '
+    = link_to 'View Website', "/reference-list", class: 'btn btn-primary'
+  %h2= 'References Page'
+
+
+%ul.list
+  - @source_reference.each do |source_reference|
+    %li
+      .row
+        .col-md-8.item
+          .item-content
+            .item-title
+              = source_reference.text
+
+        .col-md-4.d-flex.align-items-center.justify-content-md-end
+          .btn-group.btn-group-sm
+            = link_to 'Edit', edit_admin_source_reference_path(source_reference.id), class: 'btn btn-outline-secondary'
+            = link_to 'Delete', admin_source_reference_path(source_reference.id), method: :delete, data: {confirm: 'Are you sure?'}, class: 'btn btn-danger'
+-#= paginate @source_reference, theme: 'comfy'

@@ -5,21 +5,15 @@ app_layout: application
 position: 0
 
 [content]
-<div class="oyster-img flex">
-   <h1 class="welcome-oyster-txt">{{ cms:text welcome }}</h1>
+<div class="oyster-img card-content-small-device">
+   <h1 class="banner-txt">{{ cms:text Description }}</h1>
 </div>
-<div class="flex">
   <div class=" card">
     <div class="card-content">
-     {{ cms:wysiwyg explaination }}
-      <hr>
-      {{cms:partial comfy/admin/cms/partials/source_references}}
-
+     {{ cms:wysiwyg content }}
      </div>
-   </div>
 </div>
  
-
 
 
 

@@ -1,0 +1,2 @@
+class CreateSourceReference < ApplicationRecord
+end

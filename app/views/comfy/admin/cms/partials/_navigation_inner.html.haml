@@ -1,0 +1,8 @@
+%li.nav-item
+  = active_link_to 'RefData', admin_ref_data_path, class: 'nav-link'
+%li.nav-item
+  = link_to "Home Page", "/", class: 'nav-link'
+%li.nav-item
+  = active_link_to 'Source References', admin_source_references_path, class: 'nav-link'
+- Comfy::Cms::Site.first.pages.root.children.published.each do |page|
+  = link_to page.label, page.url(relative: true)

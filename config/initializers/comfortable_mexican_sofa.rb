@@ -8,8 +8,8 @@ ComfortableMexicanSofa.configure do |config|
   #   config.base_controller = 'ApplicationController'
 
   # Module responsible for authentication. You can replace it with your own.
-  # It simply needs to have #authenticate method. See http_auth.rb for reference.
-  #   config.admin_auth = 'ComfyAdminAuthentication'
+  # It simply needs to have #authenticate method. See http_auth.rb for source_references.
+    config.admin_auth = 'ComfyAdminAuthentication'
 
   # Module responsible for authorization on admin side. It should have #authorize
   # method that returns true or false based on params and loaded instance
@@ -81,15 +81,15 @@ end
 
 # Default credentials for ComfortableMexicanSofa::AccessControl::AdminAuthentication
 # YOU REALLY WANT TO CHANGE THIS BEFORE PUTTING YOUR SITE LIVE
-ComfortableMexicanSofa::AccessControl::AdminAuthentication.username = "username"
-ComfortableMexicanSofa::AccessControl::AdminAuthentication.password = "password"
+# ComfortableMexicanSofa::AccessControl::AdminAuthentication.username = "username"
+# ComfortableMexicanSofa::AccessControl::AdminAuthentication.password = "password"
 
 # Uncomment this module and `config.admin_auth` above to use custom admin authentication
-# module ComfyAdminAuthentication
-#   def authenticate
-#     return true
-#   end
-# end
+module ComfyAdminAuthentication
+  def authenticate
+    return true
+  end
+end
 
 # Uncomment this module and `config.admin_authorization` above to use custom admin authorization
 # module ComfyAdminAuthorization

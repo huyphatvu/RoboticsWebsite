@@ -2,10 +2,30 @@
 ///*--------------------------------------------------------------
 //Image
 //--------------------------------------------------------------*/
-$oyster-background-height: 4em
+$oyster-background-height: 1.5em
 .oyster-img
   background-image: image-url("oyster_lg.jpg")
   background-repeat: no-repeat
   background-attachment: fixed
   background-size: cover
   padding: $oyster-background-height
+
+.noola-hires-img
+  background-image: image-url("NOAA-hires.jpg")
+  background-repeat: no-repeat
+  background-size: cover
+  height: 20em
+  width: 20em
+  margin: 10px
+.cmplogo-img
+  background-image: image-url("cmplogo.jpg")
+  background-repeat: no-repeat
+  background-size: cover
+  height: 20em
+  width: 20em
+  margin: 10px
+//******************* Media Queries
+@media screen and (max-width: 600px)
+  .noola-hires-img, .cmplogo-img
+    height: 15em
+    width: 15em

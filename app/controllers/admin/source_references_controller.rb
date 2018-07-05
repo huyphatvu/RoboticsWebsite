@@ -2,11 +2,14 @@ class Admin::SourceReferencesController < Comfy::Admin::BaseController
 
   before_action :build_source_reference,  only: [:new, :create]
   before_action :load_source_reference,   only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_admin!, except: [:index, :show]
   attr_accessor :source_reference, :cms_page
 
-
   def index
-    @source_reference = SourceReference.all
+    # Use this for pagination
+    # @source_reference = SourceReference.order(:text).page(params[:page]).per_page(10)
+
+     @source_reference = SourceReference.all.order(:text)
 
   end
 
@@ -25,7 +28,7 @@ class Admin::SourceReferencesController < Comfy::Admin::BaseController
   def create
     @source_reference.save!
     flash[:success] = 'Comfy Reference created'
-    redirect_to action: :show, id: @comfy_reference
+    redirect_to action: :index
   rescue ActiveRecord::RecordInvalid
     flash.now[:danger] = 'Failed to create Comfy Reference'
     render action: :new
@@ -34,7 +37,7 @@ class Admin::SourceReferencesController < Comfy::Admin::BaseController
   def update
     @source_reference.update_attributes!(source_reference_params)
     flash[:success] = 'Comfy Reference updated'
-    redirect_to action: :show, id: @source_reference
+    redirect_to action: :index
   rescue ActiveRecord::RecordInvalid
     flash.now[:danger] = 'Failed to update Comfy Reference'
     render action: :edit
@@ -60,6 +63,6 @@ class Admin::SourceReferencesController < Comfy::Admin::BaseController
   end
 
   def source_reference_params
-    params.fetch(:source_reference, {}).permit(:description)
+    params.fetch(:source_reference, {}).permit(:text)
   end
 end

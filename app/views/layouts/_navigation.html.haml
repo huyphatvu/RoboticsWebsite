@@ -1,19 +1,90 @@
-%nav.navbar.navbar-expand-lg.navbar-light.bg-light
-  %a.navbar-brand{:href => "#"} Oyster Sentinel
-  %button.navbar-toggler{"aria-controls" => "navbarTogglerDemo02", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarTogglerDemo02", "data-toggle" => "collapse", :type => "button"}
-    %span.navbar-toggler-icon
-  #navbarTogglerDemo02.collapse.navbar-collapse
-    %ul.navbar-nav.mr-auto.mt-2.mt-lg-0
-      %li.nav-item.active
-        %a.nav-link{:href => "#"}
-          Home
-          %span.sr-only (current)
-      %li.nav-item
-        %a.nav-link{:href => "#"} Model
-      %li.nav-item
-        %a.nav-link{:href => "#"} Dermo Code
-      %li.nav-item
-        %a.nav-link{:href => "#"} Feature Projects
-    %ul.navbar-nav.my-2.my-lg-0
-      %li.nav-item
-        %a.nav-link{:href => "#"} Quick Links
+%ul.topnav.unclick
+  %li.top-button.unclick
+    .menu-button.unclick{onclick: "myFunction(this)"}
+      .bar1.unclick
+      .bar2.unclick
+      .bar3.unclick
+  .topnav-content.unclick
+    %li.unclick
+      %a.active{href: "/"} Home
+    %li.unclick
+      %a{href: "#"} Model
+    %li.unclick
+      %a{href: "./references"} References
+    %li.unclick
+      .dropdown.unclick
+        %button.dropbtn.collapsible.unclick Feature Projects
+        .dropdown-content.content.unclick
+          %a.nav-link.unclick{href: "/shell-budget"} Shell Budget
+          %a.nav-link.unclick{href: "/swan-lake"} Swan Lake
+    %li.unclick
+      %a{href: "/external-links"} External Links
+
+    - if admin_signed_in?
+      %li.right.unclick
+        = link_to "Log Out", destroy_admin_session_path, method: :delete, class: "unclick white-border-btn"
+      %li.right.unclick
+        %a.unclick.white-border-btn{href: "/admin"} Admin Panel
+    - else
+      %li.right.signup
+        = link_to "Sign Up", new_admin_registration_path, class: "unclick white-border-btn"
+      %li.right.signIn
+        = link_to "Sign In", new_admin_session_path, class: "unclick white-border-btn"
+:javascript
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      var content = this.nextElementSibling;
+      toggleListItems(content);
+    });
+  }
+
+  function toggleListItems(content){
+    if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+       }
+  }
+
+  function myFunction(x) {
+    x.classList.toggle("change");
+    var top_nav= document.getElementsByClassName("topnav-content").item(0);
+    top_nav.classList.toggle("nav-appear");
+  }
+
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.classList.contains("unclick")) {
+        // alert("THI");
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        for (i = 0; i < coll.length; i++) {
+          var content = coll[i].nextElementSibling;
+          if (content.style.maxHeight)
+            content.style.maxHeight = null;
+        }
+        var menu_button = document.getElementsByClassName("menu-button").item(0);
+        if(menu_button.classList.contains("change"))
+          menu_button.classList.remove("change");
+        var menu_button = document.getElementsByClassName("topnav-content").item(0);
+        if(menu_button.classList.contains("nav-appear"))
+          menu_button.classList.remove("nav-appear");
+     }
+  }
+
+  // make the card content extends according to a certain width
+  window.onload = function(){
+    // var footer1 = document.getElementsByClassName('footer').item(0);
+    // var heightOfFooter = footer1.clientHeight;
+    // var card = document.getElementsByClassName("card").item(0);
+    // var footer = $(".footer");
+    // var offsetHeightOfFooter = footer.position().top;
+    // // alert(footer.position().top);
+    //
+    // card.style.paddingBottom += (screen.height-offsetHeightOfFooter-heightOfFooter)+"px";
+    // footer1.style.top =  screen.height+"px";
+  };
+
+

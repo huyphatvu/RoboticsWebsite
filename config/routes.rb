@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  devise_for :admins
+  namespace :admin do
+    resources :ref_data
+  end
+
+  # devise_for :admins
   namespace :admin do
     resources :source_references
   end

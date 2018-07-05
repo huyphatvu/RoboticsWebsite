@@ -1,0 +1,33 @@
+.page-header
+  = link_to 'New Ref Data', new_admin_ref_datum_path, class: 'btn btn-secondary float-right'
+
+  %h2= 'Ref Data'
+
+-#= paginate @ref_data, theme: 'comfy'
+-#
+%ul.list
+  -#- @ref_data.each do |ref_data|
+    %li
+      .row
+        .col-md-8.item
+          .item-content
+            .item-title
+              = ref_data.page_num
+
+        .col-md-4.d-flex.align-items-center.justify-content-md-end
+          .btn-group.btn-group-sm
+            = link_to 'Edit', edit_admin_ref_data_path(ref_data), class: 'btn btn-outline-secondary'
+            = link_to 'Delete', admin_ref_data_path(ref_data), method: :delete, data: {confirm: 'Are you sure?'}, class: 'btn btn-danger'
+
+-#= paginate @ref_data, theme: 'comfy'
+%ul.list
+  .row
+    .col-md-8.item
+      .item-content
+        .item-title
+          %p Source References
+
+    .col-md-4.d-flex.align-items-center.justify-content-md-end
+      .btn-group.btn-group-sm
+        = link_to 'Edit', "/", class: 'btn btn-outline-secondary'
+
