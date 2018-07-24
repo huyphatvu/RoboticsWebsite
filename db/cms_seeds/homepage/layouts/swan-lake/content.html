@@ -6,53 +6,7 @@ position: 1
 
 [content]
 {{ cms:asset swan-lake, type: css, as: tag }}
-
-<div class="oyster-img card-content-small-device">
-   <h1 class="banner-txt">{{ cms:text Description }}</h1>
-</div>
-  <div class="card">
-    <div class="card-content flex card-content-small-device">
-      <div class="noola-hires-img"></div>
-      <div class="cmplogo-img"></div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-content flex card-content-small-device">
-      <table style="width:100%">
-        <tr>
-          <th>{{ cms:wysiwyg Date Header }}</th>
-          <th>{{ cms:wysiwyg Environment Header}}</th> 
-          <th>{{ cms:wysiwyg Biology Header}}</th>
-        </tr>
-        <tr>
-          <td><p>{{ cms:wysiwyg Date1 }}</p></td>
-          <td><button class="green-button button-smaller">View</button></td> 
-          <td><button class="blue-button button-smaller">View</button></td> 
-        </tr>
-        <tr>
-          <td><p>{{ cms:wysiwyg date2 }}</p></td>
-          <td><button class="green-button button-smaller">View</button></td>  
-          <td><button class="blue-button button-smaller">View</button></td> 
-        </tr>
-        <tr>
-          <td><p>{{ cms:wysiwyg date3 }}</p></td>
-          <td><button class="green-button button-smaller">View</button></td> 
-          <td><button class="blue-button button-smaller">View</button></td> 
-        </tr>
-        <tr>
-          <td><p>{{ cms:wysiwyg date4 }}</p></td>
-          <td><button class="green-button button-smaller">View</button></td>  
-          <td><button class="blue-button button-smaller">View</button></td> 
-        </tr>
-        <tr>
-          <td><p>{{ cms:wysiwyg date5 }}</p></td>
-          <td><button class="green-button button-smaller">View</button></td>  
-          <td><button class="blue-button button-smaller">View</button></td> 
-        </tr>
-      </table>
-     </div>
-</div>
-
+{{cms:partial comfy/swan_lakes/index}}
 [js]
 
 [css]

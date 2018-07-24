@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_03_213200) do
+ActiveRecord::Schema.define(version: 2018_07_23_181611) do
 
   create_table "admins", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -152,24 +152,25 @@ ActiveRecord::Schema.define(version: 2018_07_03_213200) do
 # Could not dump table "comfy_references" because of following StandardError
 #   Unknown type 'bigserial' for column 'id'
 
-  create_table "data", force: :cascade do |t|
-    t.string "label", null: false
-    t.string "identifier", null: false
-    t.text "content", limit: 16777215
-    t.integer "position", default: 0, null: false
+  create_table "habitat_suitability_indices", primary_key: "year", force: :cascade do |t|
+    t.text "map_url", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "ref_data", force: :cascade do |t|
-    t.integer "page_num"
-    t.string "label"
+  create_table "participants", force: :cascade do |t|
+    t.text "first_name"
+    t.text "last_name"
+    t.text "email"
+    t.text "state_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "source_references", force: :cascade do |t|
-    t.text "text", null: false
+  create_table "swan_lakes", force: :cascade do |t|
+    t.date "data_date", null: false
+    t.text "environment_url"
+    t.text "biology_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

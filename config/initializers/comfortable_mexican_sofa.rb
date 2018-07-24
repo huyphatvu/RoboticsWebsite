@@ -16,12 +16,12 @@ ComfortableMexicanSofa.configure do |config|
   # variables available for a given controller.
   #   config.admin_authorization = 'ComfyAdminAuthorization'
 
-  # Module responsible for public authentication. Similar to the above. You also
+  # Module responsible for documents authentication. Similar to the above. You also
   # will have access to @cms_site, @cms_layout, @cms_page so you can use them in
   # your logic. Default module doesn't do anything.
   #   config.public_auth = 'ComfyPublicAuthentication'
 
-  # Module responsible for public authorization. It should have #authorize
+  # Module responsible for documents authorization. It should have #authorize
   # method that returns true or false based on params and loaded instance
   # variables available for a given controller.
   #   config.public_authorization = 'ComfyPublicAuthorization'
@@ -98,14 +98,14 @@ end
 #   end
 # end
 
-# Uncomment this module and `config.public_auth` above to use custom public authentication
+# Uncomment this module and `config.public_auth` above to use custom documents authentication
 # module ComfyPublicAuthentication
 #   def authenticate
 #     return true
 #   end
 # end
 
-# Uncomment this module and `config.public_authorization` above to use custom public authorization
+# Uncomment this module and `config.public_authorization` above to use custom documents authorization
 # module ComfyPublicAuthorization
 #   def authorize
 #     return true

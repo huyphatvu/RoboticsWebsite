@@ -1,15 +1,17 @@
 Rails.application.routes.draw do
-  devise_for :admins
   namespace :admin do
-    resources :ref_data
+    resources :swan_lakes
   end
 
-  # devise_for :admins
   namespace :admin do
-    resources :source_references
+    resources :participants
   end
 
-  get 'entry', to: 'entries#index'
+  devise_for :admins, skip: [:registrations, :passwords]
+
+
+
+  # get 'entry', to: 'entries#index'
 
   comfy_route :cms_admin, path: "/admin"
   # Ensure that this route is defined last

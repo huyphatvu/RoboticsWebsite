@@ -1,0 +1,33 @@
+[attributes]
+---
+label: References
+app_layout: application
+position: 8
+
+[content]
+{{ cms:asset reference, type: css, as: tag }}
+<div class="oyster-img card-content-small-device">
+   <h1 class="banner-txt">{{ cms:text Description }}</h1>
+</div>
+  <div class=" card">
+    <div class="card-content">
+       {{cms:partial comfy/edit_page/index}}
+       {{ cms:wysiwyg ReferenceList }}
+     </div>
+</div>
+ 
+
+
+[js]
+
+[css]
+p {
+ text-indent: 50px !important; 
+}
+.title {
+ color: #1e5cad; 
+}
+h3 {
+	text-align: center;
+
+}

@@ -1,0 +1,32 @@
+- if admin_signed_in?
+  %button= link_to 'Edit', 'admin/participants'
+
+- Participant.select(:state_name).distinct.order(:state_name).each do |state|
+  %h2=state.state_name
+  %hr/
+  %table.card-content-small-device
+    - Participant.where(state_name: state.state_name).order(:first_name).each do |participant|
+      %tr
+        %td
+          %h4.align-left
+            = participant.first_name
+            = participant.last_name
+        %td
+          %h4.align-right=participant.email
+
+
+-#
+  = render cms_page: '/sites/1/pages/4/edit', cms_site: 'default'
+  - @site = ::Comfy::Cms::Site.find_by(id: 1)
+  - @page = @site.pages.find_by(id: 2)
+
+  %h2
+    - current_page = @cms_site.pages.root.children.published.find_by(slug: "participants")
+    = link_to current_page.label, current_page.full_path
+
+  - @cms_site.pages.root.children.published.each do |page|
+    = page.slug
+
+
+
+

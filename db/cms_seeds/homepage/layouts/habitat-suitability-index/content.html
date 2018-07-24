@@ -1,0 +1,113 @@
+[attributes]
+---
+label: Habitat Suitability Index
+app_layout: application
+position: 9
+
+[content]
+{{ cms:asset habitat-suitability-index, type: css, as: tag }}
+<div class="oyster-img card-content-small-device">
+   <h1 class="banner-txt">{{ cms:text Description }}</h1>
+</div>
+  <div class=" card">
+    <div class="card-content">
+     {{cms:partial comfy/hsi_model/index}}
+     </div>
+</div>
+ 
+[js]
+
+[css]
+
+ .embed-container {
+    position: relative;
+    padding-bottom: 80%;
+    height: 0;
+    max-width: 100%;
+}
+.embed-container iframe, .embed-container object, .embed-container iframe{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 55%;
+}
+small{
+    position: absolute;
+    z-index: 40;
+    bottom: 0;
+    margin-bottom: -15px;
+}
+
+/*    Drop down */
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover, .dropdown:focus {
+    background-color: #3e8e41;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    height:500px;
+    overflow-y: auto;
+    white-space: nowrap;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+.scrolling-bar::-webkit-scrollbar{
+    width: 10px;
+}
+
+/* Track */
+.scrolling-bar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.scrolling-bar::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.scrolling-bar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+

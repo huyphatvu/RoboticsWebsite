@@ -1,2 +1,0 @@
-class SourceReference < ApplicationRecord
-end

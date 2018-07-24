@@ -1,0 +1,5 @@
+.page-header
+  %h2 New Participant
+
+= comfy_form_with model: @participant, url: [:admin, @participant] do |form|
+  = render form

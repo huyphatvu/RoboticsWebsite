@@ -8,17 +8,27 @@
     %li.unclick
       %a.active{href: "/"} Home
     %li.unclick
-      %a{href: "#"} Model
-    %li.unclick
-      %a{href: "./references"} References
+      %a{href: "#"} DermoWatch
     %li.unclick
       .dropdown.unclick
-        %button.dropbtn.collapsible.unclick Feature Projects
+        %button.dropbtn.collapsible.unclick Models
+        .dropdown-content.content.unclick
+          %a.nav-link.unclick{href: "#"} Shell Budget Demonstration Model
+          %a.nav-link.unclick{href: "#"} Shell Budget Model
+          %a.nav-link.unclick{href: "/hsi-by-year"} Habitat Suitability Index Model
+    %li.unclick
+      .dropdown.unclick
+        %button.dropbtn.collapsible.unclick Featured Projects
         .dropdown-content.content.unclick
           %a.nav-link.unclick{href: "/shell-budget"} Shell Budget
           %a.nav-link.unclick{href: "/swan-lake"} Swan Lake
     %li.unclick
-      %a{href: "/external-links"} External Links
+      %a{href: "./participants"} Participants
+    %li.unclick
+      %a{href: "./references"} References
+
+    %li.unclick
+      %a{href: "/data-sources"} Data Sources
 
     - if admin_signed_in?
       %li.right.unclick
@@ -26,8 +36,6 @@
       %li.right.unclick
         %a.unclick.white-border-btn{href: "/admin"} Admin Panel
     - else
-      %li.right.signup
-        = link_to "Sign Up", new_admin_registration_path, class: "unclick white-border-btn"
       %li.right.signIn
         = link_to "Sign In", new_admin_session_path, class: "unclick white-border-btn"
 :javascript
