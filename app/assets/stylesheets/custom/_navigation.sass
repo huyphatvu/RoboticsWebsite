@@ -4,6 +4,18 @@
 $super-dark-blue:  #214877
 $medium-dark-blue: #1c5dad
 $light-blue:       #307abb
+$begin-degree: 0deg
+$after-degree: -405deg
+i
+  border: solid #99b5ce
+  border-width: 0 4px 4px 0
+  display: inline-block
+  padding: 3.5px
+  margin-left: 4px
+  //margin-bottom: 4px
+.down
+  transform: rotate(45deg)
+  -webkit-transform: rotate(45deg)
 
 ul.topnav
   list-style-type: none
@@ -26,8 +38,15 @@ ul.topnav
     font: normal 1.5em arial
     background-color: $medium-dark-blue
     font-size: 1.2em
+
     &:hover:not(.active)
       background-color: $light-blue
+      .arrow
+        -webkit-animation: turn 0.5s
+        -moz-animation: turn 0.5s
+        -o-animation: turn 0.5s
+        animation: turn 0.5s
+        transform: rotate(-45deg)
     &.active
       text-decoration: underline
 
@@ -91,6 +110,12 @@ ul.topnav
   -moz-animation: appear 0.25s alternate 2
   -o-animation: appear 0.25s alternate 2
   animation: appear 0.25s alternate 2
+  .arrow
+    -webkit-animation: turn 0.5s
+    -moz-animation: turn 0.5s
+    -o-animation: turn 0.5s
+    animation: turn 0.5s
+    transform: rotate(-45deg)
 
 
 @keyframes appear
@@ -105,6 +130,30 @@ ul.topnav
     -o-transform: translateY(10px)
     -webkit-transform: translateY(10px)
 
+@-webkit-keyframes turn
+  0%
+    transform: rotate($begin-degree)
+    -moz-transform: rotate($begin-degree)
+    -o-transform: rotate($begin-degree)
+    -webkit-transform: rotate($begin-degree)
+  100%
+    transform: rotate($after-degree)
+    -moz-transform: rotate($after-degree)
+    -o-transform: rotate($after-degree)
+    -webkit-transform: rotate($after-degree)
+
+@keyframes turn
+  from
+    transform: rotate($begin-degree)
+    -moz-transform: rotate($begin-degree)
+    -o-transform: rotate($begin-degree)
+    -webkit-transform: rotate($begin-degree)
+  to
+    transform: rotate($after-degree)
+    -moz-transform: rotate($after-degree)
+    -o-transform: rotate($after-degree)
+    -webkit-transform: rotate($after-degree)
+
 ///*--------------------------------------------------------------
 // Special button
 //--------------------------------------------------------------*/
@@ -115,7 +164,7 @@ ul.topnav
   //-webkit-border-radius: 50px
 
 //******************* Media Queries
-@media screen and (min-width: 768px)
+@media screen and (min-width: 1200px)
   .dropdown
     position: relative
     display: inline-block
@@ -157,7 +206,7 @@ ul.topnav
   ///* Change the background color of the dropup button when the dropup content is shown */
   .dropdown:hover .dropbtn
     background-color: $light-blue
-@media screen and (max-width: 768px)
+@media screen and (max-width: 1200px)
   ul.topnav
     overflow: visible !important
     height: auto !important

@@ -1,13 +1,9 @@
 -#= javascript_include_tag 'welcomes/index'
 - @habitat_suitability_indices = HabitatSuitabilityIndex.order(:year => :desc)
-%h1
-  HSI
-  %a#demoTitle  2017
+-#%h1
+-#  HSI
+-#  %a#demoTitle  2017
 
-%p
-  Note: Click >> button to toggle between layers
-  %br Click on the contour lines to see the HSI data
-  %br Click on the data collection points to see longtitude, latitude, and HSI collected at that location
 
 .dropdown
   %button.dropbtn{:onmouseover => "show_list()",

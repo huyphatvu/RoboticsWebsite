@@ -11,21 +11,27 @@
       %a{href: "#"} DermoWatch
     %li.unclick
       .dropdown.unclick
-        %button.dropbtn.collapsible.unclick Models
+        %button.dropbtn.collapsible.unclick
+          Models
+          -#%div.arrow &#9660;
+          %i.arrow.down
         .dropdown-content.content.unclick
           %a.nav-link.unclick{href: "#"} Shell Budget Demonstration Model
           %a.nav-link.unclick{href: "#"} Shell Budget Model
-          %a.nav-link.unclick{href: "/hsi-by-year"} Habitat Suitability Index Model
+          %a.nav-link.unclick{href: "/hsi-by-year"} Habitat Suitability Index Demonstration Model
+          %a.nav-link.unclick{href: "/hsi-by-year"} Habitat Suitability Index Visualization Model
     %li.unclick
       .dropdown.unclick
-        %button.dropbtn.collapsible.unclick Featured Projects
+        %button.dropbtn.collapsible.unclick
+          Featured Projects
+          %i.arrow.down
         .dropdown-content.content.unclick
           %a.nav-link.unclick{href: "/shell-budget"} Shell Budget
           %a.nav-link.unclick{href: "/swan-lake"} Swan Lake
     %li.unclick
-      %a{href: "./participants"} Participants
+      %a{href: "/participants"} Participants
     %li.unclick
-      %a{href: "./references"} References
+      %a{href: "/references"} References
 
     %li.unclick
       %a{href: "/data-sources"} Data Sources
@@ -46,6 +52,10 @@
       var content = this.nextElementSibling;
       toggleListItems(content);
     });
+    // coll[i].addEventListener("mouseover", function() {
+    //   var content = this.nextElementSibling;
+    //   toggleListItems(content);
+    // });
   }
 
   function toggleListItems(content){
