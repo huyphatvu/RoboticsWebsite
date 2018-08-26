@@ -6,32 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c8921bf-1f71-46a9-8442-e76ed7a135de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_banner_txt.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_dataSources.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_hsi.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_participants.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/comfy/homepage/_join_us.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ComfortSofaApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ComfortSofaApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/comfy/homepage/_support_us.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/_card.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_card.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/_banner_txt.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_banner_txt.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/_custom_buttons.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_custom_buttons.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/_media.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/_navigation.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_navigation.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/_normalize.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_normalize.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/_specialText.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_custom_buttons.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/_typography.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_typography.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/_specialContentFormat.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_specialContentFormat.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/custom.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/custom.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/participants_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/participants_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/participants/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/participants/index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/swan_lakes/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/swan_lakes/index.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/comfy/edit_page/_index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/comfy/edit_page/_index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/comfy/hsi_model/_index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/comfy/hsi_model/_index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/comfy/participants/_index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/comfy/participants/_index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/comfy/swan_lakes/_index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/comfy/swan_lakes/_index.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/comfy/homepage/_join_us.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/comfy/homepage/_join_us.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/deploy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/deploy.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/deploy/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/deploy/production.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,26 +30,85 @@
       <file leaf-file-name="_image.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="508">
+              <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navigation.html.haml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_banner_txt.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_banner_txt.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/custom.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_normalize.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_normalize.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_navigation.html.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="246">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navigation.sass" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_navigation.sass">
+      <file leaf-file-name="_index.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/comfy/edit_page/_index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="200" column="23" selection-start-line="200" selection-start-column="23" selection-end-line="200" selection-end-column="23" />
+            <state relative-caret-position="15">
+              <caret line="1" column="102" selection-start-line="1" selection-start-column="102" selection-end-line="1" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_specialContentFormat.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_specialContentFormat.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_custom_buttons.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_custom_buttons.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wizard.gif" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/images/wizard.gif">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="_support_us.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/comfy/homepage/_support_us.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -97,7 +141,6 @@
       <find>@media screen and (max-width: 1200px)</find>
       <find>align-left</find>
       <find>a</find>
-      <find>button</find>
       <find>topn</find>
       <find>topnav-content</find>
       <find>color</find>
@@ -110,6 +153,7 @@
       <find>p</find>
       <find>arrow</find>
       <find>collapsible</find>
+      <find>button</find>
     </findStrings>
     <replaceStrings>
       <replace>source_reference_params</replace>
@@ -129,8 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/_messages.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_flashMessages.sass" />
         <option value="$PROJECT_DIR$/app/views/comfy/admin/cms/hsi_model/index.html" />
         <option value="$PROJECT_DIR$/db/migrate/20180723181611_create_habitat_suitability_indices.rb" />
         <option value="$PROJECT_DIR$/app/models/habitat_suitability_index.rb" />
@@ -164,20 +206,22 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_participants.sass" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_media.sass" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_dataSources.sass" />
-        <option value="$PROJECT_DIR$/app/views/comfy/edit_page/_index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/comfy/swan_lakes/_index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/comfy/participants/_index.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_hsi.sass" />
         <option value="$PROJECT_DIR$/app/views/comfy/hsi_model/_index.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_typography.sass" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_normalize.sass" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_navigation.sass" />
         <option value="$PROJECT_DIR$/app/views/comfy/homepage/_joinus.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_card.sass" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/custom.sass" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_banner_txt.sass" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_custom_buttons.sass" />
         <option value="$PROJECT_DIR$/app/views/comfy/homepage/_join_us.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_custom_buttons.sass" />
+        <option value="$PROJECT_DIR$/app/views/comfy/homepage/_support_us.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_specialContentFormat.sass" />
+        <option value="$PROJECT_DIR$/app/views/comfy/edit_page/_index.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_banner_txt.sass" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/custom.sass" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_normalize.sass" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.haml" />
       </list>
@@ -203,9 +247,8 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="52" />
-    <option name="y" value="40" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -215,8 +258,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,6 +277,13 @@
               <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -262,14 +312,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="comfy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="comfy" type="462c0819:PsiDirectoryNode" />
-              <item name="homepage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -457,11 +499,12 @@
       <workItem from="1533323360484" duration="5778000" />
       <workItem from="1533437126971" duration="18572000" />
       <workItem from="1533661461186" duration="379000" />
+      <workItem from="1535255268124" duration="6391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260446000" />
+    <option name="totallyTimeSpent" value="266837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -473,20 +516,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2746781" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32969698" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50143063" side_tool="true" weight="0.52484846" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.31151515" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.31151515" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.4985694" visible="true" weight="0.26923078" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.4985694" visible="true" weight="0.25454545" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -499,22 +543,22 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.31151515" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32969698" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32969698" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32564104" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4985694" weight="0.26923078" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50143063" side_tool="true" weight="0.52484846" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32969698" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,27 +573,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_navigation.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3000">
-          <caret line="200" column="23" lean-forward="true" selection-start-line="200" selection-start-column="23" selection-end-line="200" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -719,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/comfy/edit_page/_index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/comfy/swan_lakes/_index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -801,20 +817,6 @@
         <state relative-caret-position="-310" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_participants.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_normalize.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_typography.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -822,59 +824,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_specialContentFormat.sass">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_navigation.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="1208">
+          <caret line="193" column="23" selection-start-line="193" selection-start-column="23" selection-end-line="193" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_custom_buttons.sass">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_participants.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_reference.sass">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/comfy/homepage/_join_us.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="15">
+          <caret line="1" column="15" selection-end-line="1" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/custom.sass">
+    <entry file="file://$PROJECT_DIR$/app/views/comfy/homepage/_support_us.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="57" selection-end-column="57" />
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_specialContentFormat.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comfy/edit_page/_index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="102" selection-start-line="1" selection-start-column="102" selection-end-line="1" selection-end-column="102" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_banner_txt.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/custom.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_normalize.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_custom_buttons.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/wizard.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="508">
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_navigation.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="200" column="23" selection-start-line="200" selection-start-column="23" selection-end-line="200" selection-end-column="23" />
+        <state relative-caret-position="246">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
