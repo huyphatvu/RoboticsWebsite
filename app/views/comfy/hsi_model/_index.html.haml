@@ -1,28 +1,26 @@
--#= javascript_include_tag 'welcomes/index'
 - @habitat_suitability_indices = HabitatSuitabilityIndex.order(:year => :desc)
--#%h1
--#  HSI
--#  %a#demoTitle  2017
-
-
-.dropdown
-  %button.dropbtn{:onmouseover => "show_list()",
-                  :onclick => "show_list()"} Dropdown
-  #myDropdown.dropdown-content.scrolling-bar
-    -@habitat_suitability_indices.each do |map|
-      %a.year{:id =>  map.year,
-              :name => map.display_url,
-              :onclick => "updateM(this.id,this.name)"}  #{map.year}
+%p
+  .dropdown
+    %button.current-dropbtn{:onclick => "show_list()"} Dropdown
+    #myCurrentDropdown.current-dropdown-content.scrolling-bar
+      -@habitat_suitability_indices.each do |map|
+        %a.year{:id =>  map.year,
+                :name => map.display_url,
+                :onclick => "updateM(this.id,this.name)"}  #{map.year}
+  %h3
+    Selected Year:
+    %a#demoTitle  2017
 
 .embed-container
-  %iframe#embed-map{:width=>"500",
-                    :height=>"400",
+  %iframe#embed-map{:width=>"600",
+                    :height=>"500",
                     :frameborder=>"0",
                     :scrolling=>"no",
                     :marginheight=>"0",
                     :marginwidth=>"0",
                     :title=>"HSI_2017",
                     :src=> HabitatSuitabilityIndex.find(2017).display_url}
+
 
 :javascript
   function updateM(att_id, att_href){
@@ -34,20 +32,19 @@
   /* When the user clicks on the button,
   toggle between hiding and showing the dropdown content */
   function show_list() {
-    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("myCurrentDropdown").classList.toggle("show");
   }
 
   // Close the dropdown menu if the user clicks outside of it
-  window.onclick = function (event) {
-    if (!event.target.matches('.dropbtn')) {
-
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-    }
-  }
+  //   window.onclick = function (event) {
+  //     if (!event.target.matches('current-dropbtn')) {
+  //       var dropdowns = document.getElementsByClassName("current-dropdown-content");
+  //       var i;
+  //       for (i = 0; i < dropdowns.length; i++) {
+  //         var openDropdown = dropdowns[i];
+  //         if (openDropdown.classList.contains('show')) {
+  //           openDropdown.classList.remove('show');
+  //         }
+  //       }
+  //     }
+  //   }

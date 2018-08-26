@@ -1,7 +1,7 @@
 .page-header
   .float-right
     = link_to 'New Swan Lake', new_admin_swan_lake_path, class: 'btn btn-secondary'
-    = link_to 'View Website', "/swan-lake", class: 'btn btn-primary'
+    = link_to 'View Website', "/swan-lake", class: 'btn btn-success'
   %h2= 'Swan Lakes'
 
 = paginate @swan_lakes, theme: 'comfy'

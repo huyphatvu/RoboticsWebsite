@@ -4,13 +4,6 @@ class Admin::ParticipantsController < Comfy::Admin::BaseController
   before_action :load_participant,   only: [:show, :edit, :update, :destroy]
 
   def index
-    # (query= '') << <<-SQL
-    #   SELECT participants.id, first_name, last_name, email, s_name
-    #   FROM participants LEFT OUTER JOIN states
-    #   ON participants.s_id = states.id;
-    # SQL
-    # joinParticipant = ActiveRecord::Base.connection.execute(query)
-    # joinParticipant = State.joins("INNER JOIN participants ON states.id = participants.s_id")
     @participants = Participant.order(:state_name).page(params[:page])
     # @participants = joinParticipant
   end

@@ -1,13 +1,13 @@
 .oyster-img.card-content-small-device
   %h1.banner-txt Swan Lake
   - if admin_signed_in?
-    %button= link_to 'Edit', 'admin/swan_lakes'
+    %button.blue-button= link_to 'Edit', '/admin/swan_lakes'
 .card
   .card-content.card-content-small-device.swan-lake-flex
     .noola-hires-img
     .cmplogo-img
 .card
-  .card-content.flex.card-content-small-device
+  .card-content.card-content-small-device
     %table{:style => "width:100%"}
       %tr
         %th

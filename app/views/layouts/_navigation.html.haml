@@ -5,65 +5,78 @@
       .bar2.unclick
       .bar3.unclick
   .topnav-content.unclick
-    %li.unclick
-      %a.active{href: "/"} Home
-    %li.unclick
-      %a{href: "#"} DermoWatch
-    %li.unclick
-      .dropdown.unclick
-        %button.dropbtn.collapsible.unclick
-          Models
-          -#%div.arrow &#9660;
-          %i.arrow.down
-        .dropdown-content.content.unclick
-          %a.nav-link.unclick{href: "#"} Shell Budget Demonstration Model
-          %a.nav-link.unclick{href: "#"} Shell Budget Model
-          %a.nav-link.unclick{href: "/hsi-by-year"} Habitat Suitability Index Demonstration Model
-          %a.nav-link.unclick{href: "/hsi-by-year"} Habitat Suitability Index Visualization Model
-    %li.unclick
-      .dropdown.unclick
-        %button.dropbtn.collapsible.unclick
-          Featured Projects
-          %i.arrow.down
-        .dropdown-content.content.unclick
-          %a.nav-link.unclick{href: "/shell-budget"} Shell Budget
-          %a.nav-link.unclick{href: "/swan-lake"} Swan Lake
-    %li.unclick
-      %a{href: "/participants"} Participants
-    %li.unclick
-      %a{href: "/references"} References
-
-    %li.unclick
-      %a{href: "/data-sources"} Data Sources
+    %li
+      .robotics-main-logo
+        %img{src: url_to_image("NewOrleansPrivateerslogo.svg"), width: "80%"}
 
     - if admin_signed_in?
-      %li.right.unclick
-        = link_to "Log Out", destroy_admin_session_path, method: :delete, class: "unclick white-border-btn"
-      %li.right.unclick
-        %a.unclick.white-border-btn{href: "/admin"} Admin Panel
+      %li.right.margin-top
+        = link_to "Log Out", destroy_admin_session_path, method: :delete, class: "white-border-btn"
+      %li.right.margin-top
+        %a.white-border-btn{href: "/admin"} Admin Panel
     - else
-      %li.right.signIn
+      %li.right.signIn.margin-top
         = link_to "Sign In", new_admin_session_path, class: "unclick white-border-btn"
+    %li.right.margin-top.margin-right
+      %a{href: "/"} Contact Us
+    %li.right.margin-top
+      %a{href: "#"} Participants
+    %li.right.margin-top
+      %a{href: "#"} Our Sponsors
+    %li.right.margin-top
+      .dropdown
+        %button.dropbtn.collapsible.unclick
+          Projects
+          %i.arrow.point-right.unlink
+        .dropdown-content.content
+          %a.nav-link{href: "#"} Competition A
+          %a.nav-link{href: "#"} Competition B
+    %li.right.margin-top
+      %a{href: "/"} Home
+
+
 :javascript
+  var breakPointSize = 1200;
+  $(".collapsible").hover(function(){
+    if(screen.width >= breakPointSize){
+      let pointer = this.children[0];
+      pointer.classList.add("arrow-turn-down");
+      removeAllPopup();
+      let sibling_content = this.nextElementSibling;
+      sibling_content.style.maxHeight = sibling_content.scrollHeight + "px";
+    }}, function(){
+      let pointer = this.children[0];
+    }
+  );
+
+  function removeAllPopup(){
+    let dropdown = document.getElementsByClassName("dropdown-content");
+    for (let i = 0; i < dropdown.length; i++) {
+      dropdown[i].style.maxHeight = null;
+      }
+    }
+
   var coll = document.getElementsByClassName("collapsible");
-  var i;
-  for (i = 0; i < coll.length; i++) {
+  for (let i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
       var content = this.nextElementSibling;
-      toggleListItems(content);
+      if(screen.width >= breakPointSize){
+        removeAllPopup();
+      }
+      toggleListItems(this, content);
     });
-    // coll[i].addEventListener("mouseover", function() {
-    //   var content = this.nextElementSibling;
-    //   toggleListItems(content);
-    // });
   }
 
-  function toggleListItems(content){
-    if (content.style.maxHeight){
-        content.style.maxHeight = null;
+
+  function toggleListItems(content, sibling_content){
+  let pointer = content.children[0];
+    if (sibling_content.style.maxHeight){
+        pointer.classList.remove("arrow-turn-down");
+        sibling_content.style.maxHeight = null;
       } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-       }
+        pointer.classList.add("arrow-turn-down");
+        sibling_content.style.maxHeight = sibling_content.scrollHeight + "px";
+    }
   }
 
   function myFunction(x) {
@@ -79,30 +92,34 @@
         var coll = document.getElementsByClassName("collapsible");
         var i;
         for (i = 0; i < coll.length; i++) {
+          var current_content = coll[i].children[0];
           var content = coll[i].nextElementSibling;
-          if (content.style.maxHeight)
+          if (content.style.maxHeight){
+          console.log(current_content);
+          if(current_content.classList.contains("arrow-turn-down"))
+              current_content.classList.remove("arrow-turn-down");
+
             content.style.maxHeight = null;
+          }
         }
+
         var menu_button = document.getElementsByClassName("menu-button").item(0);
         if(menu_button.classList.contains("change"))
           menu_button.classList.remove("change");
-        var menu_button = document.getElementsByClassName("topnav-content").item(0);
-        if(menu_button.classList.contains("nav-appear"))
-          menu_button.classList.remove("nav-appear");
+
+        var topnav_content = document.getElementsByClassName("topnav-content").item(0);
+        if(topnav_content.classList.contains("nav-appear"))
+          topnav_content.classList.remove("nav-appear");
+        // var arrow_turn_downs = document.getElementsByClassName("arrow-turn-down");
+        // var j;
+        // for(let j=0; j< arrow_turn_downs.length; j++){
+        //   let arrow_turn_down = arrow_turn_downs[j];
+        //   if(arrow_turn_down.classList.contains("arrow-turn-down"))
+        //       arrow_turn_down.classList.remove("arrow-turn-down");
+        // }
+
      }
   }
 
-  // make the card content extends according to a certain width
-  window.onload = function(){
-    // var footer1 = document.getElementsByClassName('footer').item(0);
-    // var heightOfFooter = footer1.clientHeight;
-    // var card = document.getElementsByClassName("card").item(0);
-    // var footer = $(".footer");
-    // var offsetHeightOfFooter = footer.position().top;
-    // // alert(footer.position().top);
-    //
-    // card.style.paddingBottom += (screen.height-offsetHeightOfFooter-heightOfFooter)+"px";
-    // footer1.style.top =  screen.height+"px";
-  };
 
 
