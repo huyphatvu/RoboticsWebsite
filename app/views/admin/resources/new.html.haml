@@ -1,0 +1,5 @@
+.page-header
+  %h2 New Resource
+
+= comfy_form_with model: @resource, url: [:admin, @resource] do |form|
+  = render form

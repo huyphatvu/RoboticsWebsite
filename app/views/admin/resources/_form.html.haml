@@ -1,0 +1,18 @@
+= form_for @resource, url: admin_resources_path do |f|
+  .form-group
+    = f.label "Experiment Name"
+    = f.text_field :experiment_name, class: 'form-control'
+  .form-group
+    = f.label "Document Full Name (including ending like docx)"
+    = f.text_field :experiment_url, class: 'form-control'
+
+  = f.submit "Summit", class: "btn btn-primary"
+  = link_to 'Cancel', admin_resources_path, class: "btn btn-link offset-sm-1"
+
+
+-#= form.text_field :experiment_name
+-#= form.text_field :experiment_url
+-#
+-#= form.form_actions do
+-#  = form.submit class: "btn btn-primary"
+-#  = link_to 'Cancel', admin_resources_path, class: "btn btn-link"

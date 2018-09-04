@@ -1,8 +1,7 @@
 %ul.nav.nav-pills
+
   %li.nav-item
-    = active_link_to 'Participants', admin_participants_path, class: 'nav-link'
-  %li.nav-item
-    = active_link_to 'SwanLakes', admin_swan_lakes_path, class: 'nav-link'
+    = active_link_to 'Resources', admin_resources_path, class: 'nav-link'
   %li.nav-item
   = link_to "Home Page", "/", class: 'nav-link'
   -#- Comfy::Cms::Site.first.pages.root.children.published.each do |page|

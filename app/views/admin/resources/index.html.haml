@@ -1,0 +1,23 @@
+.page-header
+  .float-right
+    = link_to 'New Resource', new_admin_resource_path, class: 'btn btn-secondary'
+    = link_to 'View Website', "/resources", class: 'btn btn-success'
+  %h2= 'Resources'
+
+= paginate @resources, theme: 'comfy'
+
+%ul.list
+  - @resources.each do |resource|
+    %li
+      .row
+        .col-md-8.item
+          .item-content
+            .item-title
+              =link_to resource.experiment_name, edit_admin_resource_path(resource)
+
+        .col-md-4.d-flex.align-items-center.justify-content-md-end
+          .btn-group.btn-group-sm
+            = link_to 'Edit', edit_admin_resource_path(resource), class: 'btn btn-outline-secondary'
+            = link_to 'Delete', admin_resource_path(resource), method: :delete, data: {confirm: 'Are you sure?'}, class: 'btn btn-danger'
+
+= paginate @resources, theme: 'comfy'

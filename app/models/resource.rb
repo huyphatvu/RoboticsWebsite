@@ -1,4 +1,4 @@
-class SwanLake < ActiveRecord::Base
+class Resource < ActiveRecord::Base
 
   # -- Relationships -----------------------------------------------------------
 

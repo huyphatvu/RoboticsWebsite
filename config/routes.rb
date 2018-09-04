@@ -1,10 +1,6 @@
 Rails.application.routes.draw do
   namespace :admin do
-    resources :swan_lakes
-  end
-
-  namespace :admin do
-    resources :participants
+    resources :resources
   end
 
   devise_for :admins, skip: [:registrations, :passwords]

@@ -1,0 +1,19 @@
+%p
+  %br
+- if admin_signed_in?
+  = link_to 'Edit Data Docs', '/admin/resources', class: "blue-button"
+%p
+  %br
+%table{:style => "width:100%"}
+  %tr
+    %th.align-left
+      %h2 Lab Name
+    %th
+      %h2 Data
+
+  -Resource.all.each do |resource|
+    %tr
+      %td.align-left
+        %p= resource.experiment_name
+      %td
+        %a.blue-button.button-smaller{href: asset_url("Motion_Workshop_Files/" << resource.experiment_url), target: "_blank"} Download
