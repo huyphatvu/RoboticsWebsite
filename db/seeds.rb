@@ -1,3 +1,9 @@
+Comfy::Cms::Site.create!([
+   {
+       label: "homepage", identifier: "homepage", hostname: "unorobotics", path: nil, locale: "en"
+   }
+])
+
 Resource.create!([
   {experiment_name: "1. Mapping Motors", experiment_url: "Experiment 1 Mapping Motors.docx"},
   {experiment_name: "2. Functions and Calibration", experiment_url: "Experiment 2 Functions and Calibration.docx"},
