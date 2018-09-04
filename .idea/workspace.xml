@@ -5,29 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass" line="12" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c8921bf-1f71-46a9-8442-e76ed7a135de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ComfortSofaApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ComfortSofaApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/comfortable_mexican_sofa.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/comfortable_mexican_sofa.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/layouts/data-sources/content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/layouts/habitat-suitability-index/content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/layouts/homepage-layout/content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/layouts/participants/content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/layouts/references/content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/layouts/swan-lake/content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/data-sources/content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/hsi-by-year/content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/participants/content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/references/content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/shell-budget/content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/swan-lake/content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-    </list>
+    <list default="true" id="0c8921bf-1f71-46a9-8442-e76ed7a135de" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="database.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="92" column="43" lean-forward="true" selection-start-line="92" selection-start-column="43" selection-end-line="93" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -282,7 +269,39 @@
             <path>
               <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_seeds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_seeds" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="cms_seeds" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -473,12 +492,12 @@
       <workItem from="1535255268124" duration="6391000" />
       <workItem from="1535386233871" duration="593000" />
       <workItem from="1535585761103" duration="1503000" />
-      <workItem from="1536002098394" duration="10050000" />
+      <workItem from="1536002098394" duration="10255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278983000" />
+    <option name="totallyTimeSpent" value="279188000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -491,7 +510,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50143063" side_tool="true" weight="0.52484846" />
@@ -573,13 +591,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_hsi.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_form.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-310" />
@@ -880,6 +891,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="92" column="43" lean-forward="true" selection-start-line="92" selection-start-column="43" selection-end-line="93" selection-end-column="3" />
         </state>
       </provider>
     </entry>
