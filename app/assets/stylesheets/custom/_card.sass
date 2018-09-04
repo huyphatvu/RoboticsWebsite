@@ -1,4 +1,8 @@
 
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|PT+Serif|Source+Sans+Pro')
+
+hr
+  padding-bottom: 0.2em
 
 ///*--------------------------------------------------------------
 // Card
@@ -18,9 +22,24 @@
   padding-bottom: 35px
   padding-left: 15%
   padding-right: 15%
+
+  h1
+    font-family: 'PT Serif', 'Source Sans Pro', sans-serif !important
+    font-size: 3em
+    font-weight: bold
+
+  p
+    margin-top: 1em
+    font-family: 'Noto Sans', 'Source Sans Pro', sans-serif
+    font-size: 1.6em
+
+
   strong
     color: #454e56
-
+@media screen and (max-width: 1000px)
+  .card-content
+    p
+      font-size: 15px !important
 @media screen and (max-width: 768px)
   .card-content-small-device
     padding-left: 2%
@@ -36,6 +55,8 @@
   .card-content
     padding-left: 7%
     padding-right: 7%
-
     p
-      font-size: 17px
+      font-size: 12px !important
+    h1
+      font-size: 1.5em !important
+

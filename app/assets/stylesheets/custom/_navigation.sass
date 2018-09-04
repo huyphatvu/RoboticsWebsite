@@ -238,6 +238,7 @@ ul.topnav
         box-shadow: inset 0px -0.2px 0.7px 0px #839ec1
         font-size: 15px !important
         font-weight: normal !important
+        color: #ffff
       button:hover
         background-color: $super-dark-blue !important
       &:hover:not(.active)
@@ -248,10 +249,19 @@ ul.topnav
   // don't display the content until click the hamburger button
   .topnav-content
     display: none
+    > li
+      .robotics-main-logo
+        margin: 0 0 !important
+      img
+        display: none
 
+  .top-button
+    border: 0 !important
   // hamburger button
   .menu-button
     display: block !important
+    position: absolute
+    right: 2px
   .top-button
     max-height: 0px
 

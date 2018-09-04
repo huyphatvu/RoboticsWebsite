@@ -12,6 +12,7 @@ $oyster-background-height: 15em
   text-align: center
   filter: contrast(85%)
   -webkit-filter: contrast(85%)
+
 .robotics-main-img
   background-image: image-url("RoboticsPic1.jpg")
   background-repeat: no-repeat
@@ -30,21 +31,6 @@ $oyster-background-height: 15em
   background-size: cover
   padding: $oyster-background-height
 
-.noola-hires-img
-  background-image: image-url("NOAA-hires.jpg")
-  background-repeat: no-repeat
-  background-size: cover
-  height: 20em
-  width: 20em
-  margin: 10px
-
-.cmplogo-img
-  background-image: image-url("cmplogo.jpg")
-  background-repeat: no-repeat
-  background-size: cover
-  height: 20em
-  width: 20em
-  margin: 10px
 
 .wizard
   background-image: image-url("wizard.gif")
@@ -54,7 +40,15 @@ $oyster-background-height: 15em
   width: 7em
   margin: 10px auto
 //******************* Media Queries
+@media screen and (max-width: 1000px)
+  .robotics-main-img
+    padding: 10em !important
+
 @media screen and (max-width: 600px)
-  .noola-hires-img, .cmplogo-img
-    height: 15em
-    width: 15em
+  .robotics-main-img
+    padding: 8em 1em !important
+  .robotics-sec-img
+    padding: 8em 1em !important
+  .wizard
+    height: 5em
+    width: 3em
