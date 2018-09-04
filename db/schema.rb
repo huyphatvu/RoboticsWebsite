@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2018_09_03_203238) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "admins", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
@@ -46,7 +49,7 @@ ActiveRecord::Schema.define(version: 2018_09_03_203238) do
   create_table "comfy_cms_files", force: :cascade do |t|
     t.integer "site_id", null: false
     t.string "label", default: "", null: false
-    t.text "description", limit: 2048
+    t.text "description"
     t.integer "position", default: 0, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -58,7 +61,7 @@ ActiveRecord::Schema.define(version: 2018_09_03_203238) do
     t.integer "record_id"
     t.string "identifier", null: false
     t.string "tag", default: "text", null: false
-    t.text "content", limit: 16777215
+    t.text "content"
     t.boolean "boolean", default: false, null: false
     t.datetime "datetime"
     t.datetime "created_at", null: false
@@ -75,9 +78,9 @@ ActiveRecord::Schema.define(version: 2018_09_03_203238) do
     t.string "app_layout"
     t.string "label", null: false
     t.string "identifier", null: false
-    t.text "content", limit: 16777215
-    t.text "css", limit: 16777215
-    t.text "js", limit: 16777215
+    t.text "content"
+    t.text "css"
+    t.text "js"
     t.integer "position", default: 0, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -93,7 +96,7 @@ ActiveRecord::Schema.define(version: 2018_09_03_203238) do
     t.string "label", null: false
     t.string "slug"
     t.string "full_path", null: false
-    t.text "content_cache", limit: 16777215
+    t.text "content_cache"
     t.integer "position", default: 0, null: false
     t.integer "children_count", default: 0, null: false
     t.boolean "is_published", default: true, null: false
@@ -107,7 +110,7 @@ ActiveRecord::Schema.define(version: 2018_09_03_203238) do
   create_table "comfy_cms_revisions", force: :cascade do |t|
     t.string "record_type", null: false
     t.integer "record_id", null: false
-    t.text "data", limit: 16777215
+    t.text "data"
     t.datetime "created_at"
     t.index ["record_type", "record_id", "created_at"], name: "index_cms_revisions_on_rtype_and_rid_and_created_at"
   end
@@ -127,7 +130,7 @@ ActiveRecord::Schema.define(version: 2018_09_03_203238) do
     t.integer "site_id", null: false
     t.string "label", null: false
     t.string "identifier", null: false
-    t.text "content", limit: 16777215
+    t.text "content"
     t.integer "position", default: 0, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -140,7 +143,7 @@ ActiveRecord::Schema.define(version: 2018_09_03_203238) do
     t.integer "page_id", null: false
     t.integer "layout_id"
     t.string "label", null: false
-    t.text "content_cache", limit: 16777215
+    t.text "content_cache"
     t.boolean "is_published", default: true, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -148,9 +151,6 @@ ActiveRecord::Schema.define(version: 2018_09_03_203238) do
     t.index ["locale"], name: "index_comfy_cms_translations_on_locale"
     t.index ["page_id"], name: "index_comfy_cms_translations_on_page_id"
   end
-
-# Could not dump table "comfy_references" because of following StandardError
-#   Unknown type 'bigserial' for column 'id'
 
   create_table "habitat_suitability_indices", primary_key: "year", force: :cascade do |t|
     t.text "map_url", null: false

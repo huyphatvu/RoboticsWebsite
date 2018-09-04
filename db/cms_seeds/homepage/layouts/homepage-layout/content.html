@@ -5,16 +5,30 @@ app_layout: application
 position: 0
 
 [content]
-<div class="oyster-img card-content-small-device">
-   <h1 class="banner-txt">{{ cms:text Description }}</h1>
+{{ cms:asset homepage-layout, type: css, as: tag }}
+<div class="robotics-main-img card-content-small-device">
+   <div class="main-banner-txt">{{ cms:text Description }}</div>
 </div>
   <div class=" card">
     <div class="card-content">
 		 {{cms:partial comfy/edit_page/index}}
+     <div class="wizard"></div> 
      {{ cms:wysiwyg content }}
-     </div>
-</div>
- 
+     </div> 
+    <div class="robotics-sec-img">
+    	{{cms:partial comfy/homepage/join_us}}
+    </div> 
+    <div class="card-content">
+     {{ cms:wysiwyg sec-content }}
+     </div> 
+     <div class="robotics-sec-img">
+    	{{cms:partial comfy/homepage/support_us}}
+    	</div> 
+     <div class="card-content">
+     {{ cms:wysiwyg third-content }}
+     </div> 
+	</div>
+
 
 
 
@@ -22,5 +36,22 @@ position: 0
 
 
 [css]
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|PT+Serif|Source+Sans+Pro');
 
+.card-content > h1 {
+  font-family: 'PT Serif', 'Source Sans Pro', sans-serif !important;
+	font-size: 3em !important;
+  font-weight: bold;
+
+}
+
+.card-content > p {
+  margin-top: 1em;
+  font-family: 'Noto Sans', 'Source Sans Pro', sans-serif;
+  font-size: 1.6em !important;
+}
+ 
+hr {
+ padding-bottom: 0.2em; 
+}
 

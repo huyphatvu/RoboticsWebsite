@@ -87,10 +87,11 @@ end
 # Uncomment this module and `config.admin_auth` above to use custom admin authentication
 module ComfyAdminAuthentication
   def authenticate
-    return true
+    unless admin_signed_in?
+      redirect_to admin_session_path
+    end
   end
 end
-
 # Uncomment this module and `config.admin_authorization` above to use custom admin authorization
 # module ComfyAdminAuthorization
 #   def authorize
