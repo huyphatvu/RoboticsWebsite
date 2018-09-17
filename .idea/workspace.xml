@@ -6,17 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c8921bf-1f71-46a9-8442-e76ed7a135de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/_custom_buttons.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_custom_buttons.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/_sponsor_images.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/layouts/homepage-layout/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/db/cms_seeds/homepage/layouts/homepage-layout/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/layouts/sponsors/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/db/cms_seeds/homepage/layouts/sponsors/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/join/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/join/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/references/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/references/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/resources/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/resources/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/sponsors/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/db/cms_seeds/homepage/pages/index/sponsors/content.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,8 +47,8 @@
       <file leaf-file-name="_image.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+            <state relative-caret-position="256">
+              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -478,12 +468,12 @@
       <workItem from="1536002098394" duration="16717000" />
       <workItem from="1536338446237" duration="609000" />
       <workItem from="1536782273114" duration="1792000" />
-      <workItem from="1537151366601" duration="2808000" />
+      <workItem from="1537151366601" duration="3039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290859000" />
+    <option name="totallyTimeSpent" value="291090000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,6 +486,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.29756796" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32969698" />
@@ -889,8 +880,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        <state relative-caret-position="256">
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
         </state>
       </provider>
     </entry>
