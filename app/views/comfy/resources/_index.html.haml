@@ -1,13 +1,36 @@
 %p
 - if admin_signed_in?
   = link_to 'Edit Data Docs', '/admin/resources', class: "blue-button"
+
+%p
+  %br
+%h1{style: "text-align: center;"} Useful Links
+%table{:style => "width:100%"}
+  %tr
+    %td.align-left
+      %p Measuring Frequency
+    %td{style: "text-align: right;"}
+      %a.blue-button.button-smaller{href: "https://tushev.org/articles/arduino/9/measuring-frequency-with-arduino", target: "_blank"} View
+
+
+%p
+  %br
+%h1{style: "text-align: center;"} Design Tips
+%table{:style => "width:100%"}
+  %tr
+    %td.align-left
+      %p Measure Light Flicker
+    %td{style: "text-align: right;"}
+      %a.blue-button.button-smaller{href: asset_url("Competition2019/LED_light_flicker_design_tip.pdf")} Download
+
+
 %p
   %br
 %h1{style: "text-align: center;"} BOM
 %table{:style => "width:100%"}
   %tr
     %td.align-left
-      %p Tool List
+      %p Tools List
     %td{style: "text-align: right;"}
       %a.blue-button.button-smaller{href: asset_url("BOM/BOM Robot.xlsx")} Download
 
