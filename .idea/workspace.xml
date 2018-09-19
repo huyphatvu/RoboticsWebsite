@@ -6,7 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c8921bf-1f71-46a9-8442-e76ed7a135de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +30,7 @@
       <file leaf-file-name="_custom_buttons.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_custom_buttons.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="758">
+            <state relative-caret-position="960">
               <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
             </state>
           </provider>
@@ -38,17 +39,26 @@
       <file leaf-file-name="_specialContentFormat.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_specialContentFormat.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="360">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_image.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_image.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+            <state relative-caret-position="233">
+              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_index.html.haml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -159,12 +169,12 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_calendar.sass" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_banner_txt.sass" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_card.sass" />
-        <option value="$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/comfy/homepage/_support_us.html.haml" />
         <option value="$PROJECT_DIR$/app/views/comfy/sponsors/_index.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_custom_buttons.sass" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_sponsor_images.sass" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass" />
+        <option value="$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml" />
       </list>
     </option>
   </component>
@@ -199,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,6 +226,13 @@
               <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -264,6 +280,14 @@
             <path>
               <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="comfy" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -287,6 +311,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -468,12 +493,13 @@
       <workItem from="1536002098394" duration="16717000" />
       <workItem from="1536338446237" duration="609000" />
       <workItem from="1536782273114" duration="1792000" />
-      <workItem from="1537151366601" duration="3039000" />
+      <workItem from="1537151366601" duration="3451000" />
+      <workItem from="1537329962719" duration="464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291090000" />
+    <option name="totallyTimeSpent" value="291966000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,18 +514,18 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.29756796" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3018598" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32969698" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50143063" side_tool="true" weight="0.52484846" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.31151515" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.31151515" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.4985694" visible="true" weight="0.3551515" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4985694" visible="true" weight="0.33575758" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -512,19 +538,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32969698" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.31151515" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32564104" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4985694" weight="0.26923078" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50143063" side_tool="true" weight="0.52484846" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32969698" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -567,7 +593,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml</url>
-          <line>48</line>
+          <line>53</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
@@ -575,6 +601,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_custom_buttons.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1095">
@@ -823,16 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="n#td#0;n#tr#1;n#table#1;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -863,25 +886,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_custom_buttons.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
+        <state relative-caret-position="960">
           <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_specialContentFormat.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="360">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_sponsor_images.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_image.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        <state relative-caret-position="233">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
         </state>
       </provider>
     </entry>

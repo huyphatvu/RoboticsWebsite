@@ -19,6 +19,11 @@
 %table{:style => "width:100%"}
   %tr
     %td.align-left
+      %p Rules and Strategies
+    %td{style: "text-align: right;"}
+      %a.blue-button.button-smaller{href: asset_url("Competition2019/Rules and Strategies 1.pptx"), target: "_blank"} Download
+  %tr
+    %td.align-left
       %p Measure Light Flicker
     %td{style: "text-align: right;"}
       %a.blue-button.button-smaller{href: asset_url("Competition2019/LED_light_flicker_design_tip.pdf")} Download
@@ -38,7 +43,6 @@
   %br
 
 %h1{style: "text-align: center;"} Presentation Workshop
-%p{style: "text-align: center;"} Download the material
 %table{:style => "width:100%"}
   %tr
     %td.align-left
@@ -60,11 +64,11 @@
     %th.align-left
       %h2 Lab Name
     %th
-      %h2 Data
+      %h2{style: "text-align: right;"} Data
 
   -Resource.all.each do |resource|
     %tr
       %td.align-left
         %p= resource.experiment_name
-      %td
+      %td{style: "text-align: right;"}
         %a.blue-button.button-smaller{href: asset_url("Motion_Workshop_Files/" << resource.experiment_url), target: "_blank"} Download
