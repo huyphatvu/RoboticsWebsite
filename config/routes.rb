@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   end
 
   devise_for :admins, skip: [:registrations, :passwords]
-
+  get 'sitemap.xml', :to => 'mysitemap#index', :defaults => {:format => 'xml'}
 
 
   # get 'entry', to: 'entries#index'
