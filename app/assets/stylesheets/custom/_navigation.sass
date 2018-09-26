@@ -1,3 +1,4 @@
+@import "mixin_custom_funct"
 //*--------------------------------------------------------------
 // Navigation Bar
 //--------------------------------------------------------------*/
@@ -16,8 +17,7 @@ i
   padding: 3.2px
   margin-left: 4px
 .point-right
-  transform: rotate(-45deg)
-  -webkit-transform: rotate(-45deg)
+  @include transform(rotate(-45deg))
 
 ul.topnav
   list-style-type: none
@@ -73,10 +73,7 @@ ul.topnav
   margin: 7px 7px
   height: 35px
   z-index: 3000
-  -webkit-box-shadow: 2px 2px 8px 1px rgba(32, 64, 92, 0.41)
-  -moz-box-shadow: 2px 2px 8px 1px rgba(32, 64, 92, 0.41)
-  box-shadow: 2px 2px 8px 1px rgba(32, 64, 92, 0.41)
-
+  @include box-shadow(2px 2px 8px 1px rgba(32, 64, 92, 0.41))
 
 .bar1,
 .bar2,
@@ -85,13 +82,9 @@ ul.topnav
   height: 2px
   margin: 5.5px 5.5px
   transition: 0.4s
-  border-radius: 200px 200px 200px 200px
-  -moz-border-radius: 200px 200px 200px 200px
-  -webkit-border-radius: 200px 200px 200px 200px
-  -webkit-box-shadow: 10px 9px 21px -11px rgba(0,0,0,0.75)
-  -moz-box-shadow: 10px 9px 21px -11px rgba(0,0,0,0.75)
-  box-shadow: 10px 9px 21px -11px rgba(0,0,0,0.75)
   border: 2px solid #ffffff !important
+  @include box-shadow(10px 9px 21px -11px rgba(0,0,0,0.75))
+  @include border-radius(200px)
 
 .change .bar1
   -webkit-transform: rotate(-45deg) translate(-9px, 6px)
@@ -107,79 +100,24 @@ ul.topnav
 
 //*************** Make the navigation tabs appear after clicking the hamburger button
 .nav-appear
-  display: block !important
-  -webkit-animation: appear 0.25s alternate 2
-  -moz-animation: appear 0.25s alternate 2
-  -o-animation: appear 0.25s alternate 2
-  animation: appear 0.25s alternate 2
+  display: flex !important
+  @include keyframes(appear)
+    from
+      @include transform(translateY(0px))
+    to
+      @include transform(translateY(7px))
+  @include animation(appear 0.25s alternate 2)
 
 
 .arrow-turn-down
-  -webkit-animation: turn-down 0.5s
-  -moz-animation: turn-down 0.5s
-  -o-animation: turn-down 0.5s
-  animation: turn-down 0.5s
+  @include keyframes(turn-down)
+    from
+      @include transform(rotate($begin-degree))
+    to
+      @include transform(rotate($after-degree))
+  @include animation(turn-down 0.5s)
   transform: rotate(45deg)
 
-
-@keyframes appear
-  from
-    transform: translateY(0px)
-    -moz-transform: translateY(0px)
-    -o-transform: translateY(0px)
-    -webkit-transform: translateY(0px)
-  to
-    transform: translateY(7px)
-    -moz-transform: translateY(7px)
-    -o-transform: translateY(7px)
-    -webkit-transform: translateY(7px)
-
-@-webkit-keyframes turn
-  0%
-    transform: rotate($begin-degree)
-    -moz-transform: rotate($begin-degree)
-    -o-transform: rotate($begin-degree)
-    -webkit-transform: rotate($begin-degree)
-  100%
-    transform: rotate($after-degree)
-    -moz-transform: rotate($after-degree)
-    -o-transform: rotate($after-degree)
-    -webkit-transform: rotate($after-degree)
-
-@keyframes turn
-  from
-    transform: rotate($begin-degree)
-    -moz-transform: rotate($begin-degree)
-    -o-transform: rotate($begin-degree)
-    -webkit-transform: rotate($begin-degree)
-  to
-    transform: rotate($after-degree)
-    -moz-transform: rotate($after-degree)
-    -o-transform: rotate($after-degree)
-    -webkit-transform: rotate($after-degree)
-@keyframes turn-down
-  from
-    transform: rotate($begin-degree)
-    -moz-transform: rotate($begin-degree)
-    -o-transform: rotate($begin-degree)
-    -webkit-transform: rotate($begin-degree)
-  to
-    transform: rotate($after-degree)
-    -moz-transform: rotate($after-degree)
-    -o-transform: rotate($after-degree)
-    -webkit-transform: rotate($after-degree)
-
-@keyframes turn-right
-  from
-    transform: rotate($after-degree)
-    -moz-transform: rotate($after-degree)
-    -o-transform: rotate($after-degree)
-    -webkit-transform: rotate($after-degree)
-  to
-    transform: rotate($begin-degree)
-    -moz-transform: rotate($begin-degree)
-    -o-transform: rotate($begin-degree)
-    -webkit-transform: rotate($begin-degree)
 
 //******************* Media Queries
 // LARGE SCREEN
@@ -189,6 +127,7 @@ ul.topnav
   .margin-right
     margin-right: 20px
   ul.topnav
+    @include box-shadow(0 3px 8px 0px #cbc7c7)
     a
       &:hover
         border-bottom: 2px solid #99b5ce !important
@@ -228,17 +167,16 @@ ul.topnav
     position: static
     top: 0px
     z-index: 1000
+    background-color: $super-dark-blue
     li.right, li
       float: none
       a, button
         text-align: left
         background-color: $super-dark-blue
-        -webkit-box-shadow: inset 0px -0.2px 0.7px 0px #839ec1
-        -moz-box-shadow: inset 0px -0.2px 0.7px 0px #839ec1
-        box-shadow: inset 0px -0.2px 0.7px 0px #839ec1
         font-size: 15px !important
         font-weight: normal !important
         color: #ffff
+        @include box-shadow(inset 0px -0.2px 0.7px 0px #839ec1)
       button:hover
         background-color: $super-dark-blue !important
       &:hover:not(.active)
@@ -249,7 +187,9 @@ ul.topnav
   // don't display the content until click the hamburger button
   .topnav-content
     display: none
+    flex-direction: column-reverse
     > li
+
       .robotics-main-logo
         margin: 0 0 !important
       img
