@@ -9,22 +9,25 @@
       .robotics-main-logo
         %img{src: url_to_image("NewOrleansPrivateerslogo.svg"), width: "80%"}
 
-    - if admin_signed_in?
+    .reserve-on-small-screen
+      - if admin_signed_in?
+        %li.right.margin-top
+          = link_to "Log Out", destroy_admin_session_path, method: :delete, class: "white-border-btn"
+        %li.right.margin-top
+          %a.white-border-btn{href: "/admin"} Admin Panel
+      - else
+        %li.right.signIn.margin-top
+          = link_to "Sign In", new_admin_session_path, class: "unclick white-border-btn"
+      %li.right.margin-top.margin-right
+        %a{href: "/contact-us"} Contact Us
       %li.right.margin-top
-        = link_to "Log Out", destroy_admin_session_path, method: :delete, class: "white-border-btn"
+        %a{href: "/sponsors"} Sponsors
       %li.right.margin-top
-        %a.white-border-btn{href: "/admin"} Admin Panel
-    - else
-      %li.right.signIn.margin-top
-        = link_to "Sign In", new_admin_session_path, class: "unclick white-border-btn"
-    %li.right.margin-top.margin-right
-      %a{href: "/contact-us"} Contact Us
-    %li.right.margin-top
-      %a{href: "/sponsors"} Sponsors
-    %li.right.margin-top
-      %a{href: "/join"} Join Us
-    %li.right.margin-top
-      %a{href: "/resources"} Resources
+        %a{href: "/join"} Join Us
+      %li.right.margin-top
+        %a{href: "/resources"} Resources
+      %li.right.margin-top
+        %a{href: "/"} Home
     -#%li.right.margin-top
     -#  .dropdown
     -#    %button.dropbtn.collapsible.unclick
@@ -34,8 +37,7 @@
     -#      %a.nav-link{href: "#"} Competition A
     -#      %a.nav-link{href: "#"} Competition B
 
-    %li.right.margin-top
-      %a{href: "/"} Home
+
 
 
 :javascript
