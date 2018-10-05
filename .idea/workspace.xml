@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c8921bf-1f71-46a9-8442-e76ed7a135de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,21 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <leaf>
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_index.html.haml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state relative-caret-position="178">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -47,7 +39,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>align-left</find>
       <find>a</find>
       <find>topn</find>
       <find>color</find>
@@ -77,6 +68,7 @@
       <find>transform</find>
       <find>box-shadow</find>
       <find>box</find>
+      <find>config.force_ssl = true</find>
     </findStrings>
     <replaceStrings>
       <replace>source_reference_params</replace>
@@ -119,7 +111,6 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/initializers/comfortable_mexican_sofa.rb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/calendar.sass" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_participants.sass" />
@@ -148,6 +139,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom/_navigation.sass" />
         <option value="$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -171,7 +163,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="878" />
@@ -182,8 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,30 +198,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="documents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="BOM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="Competition2019" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="Motion_Workshop_Files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -280,21 +246,6 @@
               <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="comfy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="comfy" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoboticsWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoboticsWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="mysitemap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -328,6 +279,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -520,12 +473,13 @@
       <workItem from="1537992562760" duration="1659000" />
       <workItem from="1537997026394" duration="1903000" />
       <workItem from="1538591950024" duration="6279000" />
-      <workItem from="1538695769952" duration="1570000" />
+      <workItem from="1538695769952" duration="2387000" />
+      <workItem from="1538766792336" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309378000" />
+    <option name="totallyTimeSpent" value="310210000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -537,10 +491,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.34620887" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.35121602" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32969698" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50143063" side_tool="true" weight="0.52484846" />
@@ -549,7 +503,7 @@
       <window_info anchor="bottom" id="Run" order="7" weight="0.31151515" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32969698" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.4985694" visible="true" weight="0.31757575" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4985694" visible="true" weight="0.31757575" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -564,19 +518,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32969698" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.31151515" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32564104" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4985694" weight="0.26923078" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50143063" side_tool="true" weight="0.52484846" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32969698" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -703,13 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
@@ -895,6 +842,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -902,10 +856,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="178">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
