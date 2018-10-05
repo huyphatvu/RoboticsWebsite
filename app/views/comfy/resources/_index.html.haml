@@ -52,7 +52,7 @@
 
 %p
   %br
-
+-#KBTinit.docx
 %h1{style: "text-align: center;"} Presentation
 %p{style: "text-align: center;"} This is our weekly workshop write-up
 %table{:style => "width:100%"}
@@ -61,7 +61,11 @@
       %h2 Lab Name
     %th
       %h2{style: "text-align: right;"} Data
-
+  %tr
+    %td.align-left
+      %p 0. KBT Initialization
+    %td{style: "text-align: right;"}
+      %a.blue-button.button-smaller{href: asset_url("Motion_Workshop_Files/KBTinit.docx")} Download
   -Resource.all.each do |resource|
     %tr
       %td.align-left
