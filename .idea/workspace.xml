@@ -6,10 +6,7 @@
     <bookmark url="file://$PROJECT_DIR$/app/assets/stylesheets/custom/_navigation.sass" line="127" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c8921bf-1f71-46a9-8442-e76ed7a135de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml" afterDir="false" />
-    </list>
+    <list default="true" id="0c8921bf-1f71-46a9-8442-e76ed7a135de" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +46,8 @@
       <file leaf-file-name="_index.html.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="425">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -190,7 +187,8 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="41" />
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="878" />
@@ -507,12 +505,12 @@
       <workItem from="1539234192825" duration="491000" />
       <workItem from="1539905659864" duration="1048000" />
       <workItem from="1540572758584" duration="256000" />
-      <workItem from="1541530006866" duration="124000" />
+      <workItem from="1541530006866" duration="773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313693000" />
+    <option name="totallyTimeSpent" value="314342000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,8 +522,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="878" extended-state="0" />
-    <editor active="true" />
+    <frame x="41" y="22" width="1440" height="878" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.38125893" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32969698" />
@@ -891,8 +888,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/comfy/resources/_index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="425">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
